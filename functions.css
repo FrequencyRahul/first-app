@@ -1,0 +1,112 @@
+<style>
+	
+
+	#flex{
+		display: flex;
+		flex-wrap:wrap;
+	}
+		
+	.flex-item{
+		background-color: red;
+		font-size:20px;
+		margin:20px;
+		padding:20px;
+
+		width:200px;
+	}
+
+	#container{
+		display:flex;
+		flex-wrap:wrap;
+	
+	}
+
+	#container>div{
+		
+		background-color: springgreen;
+		font-size:20px;
+		margin:20px;
+		padding:20px;
+		width:200px;
+	}
+		
+
+
+
+	#grid{
+		background-color: white;
+		display: grid;
+		margin:10px;
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
+		grid-template-columns:auto auto   auto;
+	}
+	.grid-item{
+		background-color:yellow;
+		color:red;
+		margin:10px
+		padding:30px;
+	}
+
+
+	
+
+	button{
+		color: black;
+		background-color:yellow;
+		margin:50px;
+		padding:10px;
+	`}
+
+	button:hover{
+		background-color: red;
+		color: blue;
+	}
+		
+	
+	
+
+
+	h1{
+		color: red;
+		text-align:center;
+		
+	}
+	table{
+		background-color:orange;
+		border:3px solid black;
+		border-collapse: collapse;
+		
+		
+	}
+	th,td{
+		border:3px solid black;
+		
+	}
+	div{
+		background-color: white;
+		
+		padding: 50px;
+		border: 2px solid black;
+		text-align: center;
+	}
+
+	#orange{
+		
+		background-color: orange;
+		
+		padding: 50px;
+		border: 2px solid black;
+		text-align: center;
+	}
+
+	.green{
+		
+		background-color: green;
+		
+		padding: 50px;
+		border: 2px solid black;
+		text-align: center;
+	}
+
+</style>
